@@ -40,7 +40,7 @@ export default function Personagem({ data }) {
                 <strong>Status:</strong> { status }
               </li>
               <li>
-                <strong>Geênero Sexual:</strong> { gender }
+                <strong>Gênero Sexual:</strong> { gender }
               </li>
               <li>
                 <strong>Espécie:</strong> { species }
@@ -49,7 +49,7 @@ export default function Personagem({ data }) {
                 <strong>Localização:</strong> { location?.name }
               </li>
               <li>
-                <strong>Originalemnte de:</strong> { origin?.name }
+                <strong>Originalmente de:</strong> { origin?.name }
               </li>
             </ul>
           </div>

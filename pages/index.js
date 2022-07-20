@@ -88,11 +88,9 @@ export default function Home({ data }) {
       <main className={styles.main}>
         <h1 className={styles.title}>Teste Front-End API</h1>
 
-        <p className={styles.description}>
-          <h2>
-            <i>Rick and Morty</i>
-          </h2>
-        </p>
+        <h2 className={styles.description}>  
+          Rick and Morty 
+        </h2>
 
         <form className="search" onSubmit={handleOnSubmitSearch}>
           <input name="query" type="search" />
